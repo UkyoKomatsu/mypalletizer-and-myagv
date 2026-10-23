@@ -14,6 +14,7 @@ RUN apt update && apt install -y \
   ros-galactic-nav2-simple-commander \
   ros-galactic-slam-toolbox \
   python3-pip \
+  openssh-client \
   vim \
   && rm -rf /var/lib/apt/lists/*
 

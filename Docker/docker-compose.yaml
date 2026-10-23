@@ -1,16 +1,31 @@
-version: "3.8"
-
 services:
   ros2_galactic:
     build: .
     container_name: ros2_galactic
+    init: true
+    entrypoint: ["/bin/bash", "/opt/myagv-network/container-entrypoint.sh"]
+    command: ["bash"]
 
     network_mode: host   # --net=host
 
     environment:
-      #  - RMW_IMPLEMENTATION=rmw_cyclonedds_cpp
-      - DISPLAY=${DISPLAY}       # ★ 追加
-      #  - ROS_DOMAIN_ID=${ROS_DOMAIN_ID}
+      - DISPLAY=${DISPLAY:-}
+      - RMW_IMPLEMENTATION=rmw_cyclonedds_cpp
+      - ROS_DOMAIN_ID=0
+      - ROS_LOCALHOST_ONLY=0
+      - CYCLONEDDS_URI=file:///run/myagv-network/cyclonedds.xml
+      - MYAGV_HOST=${MYAGV_HOST:-192.168.128.249}
+      - MYAGV_USER=er
+
+    secrets:
+      - myagv_network_key
+
+    healthcheck:
+      test: ["CMD", "python3", "/opt/myagv-network/supervisor.py", "health"]
+      interval: 5s
+      timeout: 3s
+      retries: 3
+      start_period: 30s
 
     stdin_open: true     # -i
     tty: true            # -t
@@ -20,6 +35,8 @@ services:
     privileged: true
 
     volumes:
+      - ./network:/opt/myagv-network:ro
+      - ./entrypoint.sh:/entrypoint.sh:ro
       - /tmp/.X11-unix:/tmp/.X11-unix  # ★ 追加
 
       #  gitプロジェクト置き場
@@ -38,7 +55,11 @@ services:
       # relasenseの入力がどれかわからないのでall in
       - /dev:/dev
 
-    # 個別にデバイスを指定する場合（より安全）
-    devices:
-      - /dev/input/js0:/dev/input/js0
+
+    # /dev is already mounted and privileged mode exposes attached devices.
+    # A mandatory /dev/input/js0 mapping prevents startup without a joystick.
+
+secrets:
+  myagv_network_key:
+    file: ./.local-network/id_ed25519
 

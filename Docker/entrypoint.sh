@@ -25,9 +25,15 @@ done
 
 # patch
 cd /root/git/eai_task_server
-git reset --hard
-git clean -fd
-patch -p1 < /root/git/rcll/myAGV/eai_task_server.patch
+PATCH_FILE=/root/git/rcll/robots/myAGV/eai_task_server.patch
+if git apply --check "$PATCH_FILE" 2>/dev/null; then
+  git apply "$PATCH_FILE"
+elif git apply --reverse --check "$PATCH_FILE" 2>/dev/null; then
+  echo "eai_task_server patch is already applied"
+else
+  echo "eai_task_server patch conflicts with the working tree; files were preserved" >&2
+  exit 1
+fi
 
 # if [ ! -L /root/colcon_ws/src/myagv_navigation ]; then
 #   ln -s /root/git/rcll/myAGV /root/colcon_ws/src/myagv_navigation
