@@ -26,9 +26,9 @@ done
 # patch
 cd /root/git/eai_task_server
 PATCH_FILE=/root/git/rcll/robots/myAGV/eai_task_server.patch
-if git apply --check "$PATCH_FILE" 2>/dev/null; then
-  git apply "$PATCH_FILE"
-elif git apply --reverse --check "$PATCH_FILE" 2>/dev/null; then
+if git -c safe.directory="$PWD" apply --check "$PATCH_FILE" 2>/dev/null; then
+  git -c safe.directory="$PWD" apply "$PATCH_FILE"
+elif git -c safe.directory="$PWD" apply --reverse --check "$PATCH_FILE" 2>/dev/null; then
   echo "eai_task_server patch is already applied"
 else
   echo "eai_task_server patch conflicts with the working tree; files were preserved" >&2
@@ -41,6 +41,10 @@ fi
 
 # build
 cd /root/colcon_ws
-colcon build
+if [ ! -f install/setup.bash ] || [ "${ROS_BUILD_ON_START:-0}" = 1 ]; then
+  colcon build
+else
+  echo "Using the existing workspace build (run colcon build after source changes)"
+fi
 
 exec "$@"
