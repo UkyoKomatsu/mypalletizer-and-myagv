@@ -1,0 +1,81 @@
+2026-11-03 16:13:29.891 DEBU [pymycobot.generate] _write: FE FE 02 12 FA 
+2026-11-03 16:13:30.894 DEBU [pymycobot.generate] Reply timeout for 0x12
+2026-11-03 16:13:30.900 DEBU [pymycobot.generate] _write: FE FE 02 12 FA 
+2026-11-03 16:13:30.923 DEBU [pymycobot.generate] _read frame: fe fe 03 12 01 fa
+2026-11-03 16:13:31.129 DEBU [pymycobot.generate] _write: FE FE 02 51 FA 
+2026-11-03 16:13:31.146 DEBU [pymycobot.generate] _read frame: fe fe 03 51 01 fa
+2026-11-03 16:13:31.361 DEBU [pymycobot.generate] _write: FE FE 02 27 FA 
+2026-11-03 16:13:31.373 DEBU [pymycobot.generate] _read frame: fe fe 03 27 00 fa
+2026-11-03 16:13:31.580 DEBU [pymycobot.generate] _write: FE FE 02 2B FA 
+2026-11-03 16:13:31.831 DEBU [pymycobot.generate] _read frame: fe fe 03 2b 00 fa
+2026-11-03 16:13:32.035 DEBU [pymycobot.generate] _write: FE FE 02 07 FA 
+2026-11-03 16:13:32.053 DEBU [pymycobot.generate] _read frame: fe fe 04 07 d0 03 fa
+2026-11-03 16:13:32.266 DEBU [pymycobot.generate] _write: FE FE 02 20 FA 
+2026-11-03 16:13:32.283 DEBU [pymycobot.generate] _read frame: fe fe 0e 20 14 df 2e 9f 3e ee f9 83 2f 9e 16 62 fa
+2026-11-03 16:13:32.499 DEBU [pymycobot.generate] _write: FE FE 02 23 FA 
+2026-11-03 16:13:32.591 DEBU [pymycobot.generate] _read frame: fe fe 0e 23 03 cf 04 1a 05 e2 35 f9 0a 52 3a ed fa
+2026-11-03 16:13:32.808 DEBU [pymycobot.generate] _write: FE FE 02 E4 FA 
+2026-11-03 16:13:32.826 DEBU [pymycobot.generate] _read frame: fe fe 08 e4 00 00 00 00 00 00 fa
+2026-11-03 16:14:47.228 DEBU [pymycobot.generate] _write: FE FE 02 12 FA 
+2026-11-03 16:14:47.239 DEBU [pymycobot.generate] _read frame: fe fe 03 12 01 fa
+2026-11-03 16:14:47.453 DEBU [pymycobot.generate] _write: FE FE 02 51 FA 
+2026-11-03 16:14:47.926 DEBU [pymycobot.generate] _read frame: fe fe 03 51 01 fa
+2026-11-03 16:14:48.141 DEBU [pymycobot.generate] _write: FE FE 02 27 FA 
+2026-11-03 16:14:48.154 DEBU [pymycobot.generate] _read frame: fe fe 03 27 00 fa
+2026-11-03 16:14:48.358 DEBU [pymycobot.generate] _write: FE FE 02 2B FA 
+2026-11-03 16:14:48.373 DEBU [pymycobot.generate] _read frame: fe fe 03 2b 00 fa
+2026-11-03 16:14:48.589 DEBU [pymycobot.generate] _write: FE FE 02 07 FA 
+2026-11-03 16:14:48.650 DEBU [pymycobot.generate] _read frame: fe fe 04 07 d0 03 fa
+2026-11-03 16:14:48.856 DEBU [pymycobot.generate] _write: FE FE 02 20 FA 
+2026-11-03 16:14:48.874 DEBU [pymycobot.generate] _read frame: fe fe 0e 20 14 fa 2e 9f 3e ee 03 5d 2e 47 12 d0 fa
+2026-11-03 16:14:49.088 DEBU [pymycobot.generate] _write: FE FE 02 23 FA 
+2026-11-03 16:14:49.112 DEBU [pymycobot.generate] _read frame: fe fe 0e 23 03 1f 04 d0 05 fc 35 40 0b b2 ba 17 fa
+2026-11-03 16:14:49.324 DEBU [pymycobot.generate] _write: FE FE 02 E4 FA 
+2026-11-03 16:14:49.355 DEBU [pymycobot.generate] _read frame: fe fe 08 e4 00 00 00 00 00 00 fa
+2026-11-03 16:14:49.560 DEBU [pymycobot.generate] _write: FE FE 03 4A 03 FA 
+2026-11-03 16:14:49.889 DEBU [pymycobot.generate] _read frame: fe fe 05 4a 03 f9 2a fa
+2026-11-03 16:14:49.891 DEBU [pymycobot.generate] _write: FE FE 03 4B 03 FA 
+2026-11-03 16:14:49.914 DEBU [pymycobot.generate] _read frame: fe fe 05 4b 03 02 8a fa
+2026-11-03 16:17:21.389 DEBU [pymycobot.generate] _write: FE FE 02 12 FA 
+2026-11-03 16:17:21.399 DEBU [pymycobot.generate] _read frame: fe fe 03 12 01 fa
+2026-11-03 16:17:21.610 DEBU [pymycobot.generate] _write: FE FE 02 51 FA 
+2026-11-03 16:17:21.957 DEBU [pymycobot.generate] _read frame: fe fe 03 51 01 fa
+2026-11-03 16:17:22.158 DEBU [pymycobot.generate] _write: FE FE 02 27 FA 
+2026-11-03 16:17:22.165 DEBU [pymycobot.generate] _read frame: fe fe 03 27 00 fa
+2026-11-03 16:17:22.373 DEBU [pymycobot.generate] _write: FE FE 02 2B FA 
+2026-11-03 16:17:22.383 DEBU [pymycobot.generate] _read frame: fe fe 03 2b 00 fa
+2026-11-03 16:17:22.592 DEBU [pymycobot.generate] _write: FE FE 02 07 FA 
+2026-11-03 16:17:22.803 DEBU [pymycobot.generate] _read frame: fe fe 04 07 d0 03 fa
+2026-11-03 16:17:23.008 DEBU [pymycobot.generate] _write: FE FE 02 20 FA 
+2026-11-03 16:17:23.025 DEBU [pymycobot.generate] _read frame: fe fe 0e 20 fe 37 11 33 3a cf ff 8e e2 45 bb 56 fa
+2026-11-03 16:17:23.240 DEBU [pymycobot.generate] _write: FE FE 02 23 FA 
+2026-11-03 16:17:23.266 DEBU [pymycobot.generate] _read frame: fe fe 0e 23 fd 60 00 42 06 90 45 e8 0b 20 fc 77 fa
+2026-11-03 16:17:23.468 DEBU [pymycobot.generate] _write: FE FE 02 E4 FA 
+2026-11-03 16:17:23.872 DEBU [pymycobot.generate] _read frame: fe fe 08 e4 00 00 00 00 00 00 fa
+2026-11-03 16:17:24.089 DEBU [pymycobot.generate] _write: FE FE 03 4A 03 FA 
+2026-11-03 16:17:24.103 DEBU [pymycobot.generate] _read frame: fe fe 05 4a 03 f9 2a fa
+2026-11-03 16:17:24.105 DEBU [pymycobot.generate] _write: FE FE 03 4B 03 FA 
+2026-11-03 16:17:24.127 DEBU [pymycobot.generate] _read frame: fe fe 05 4b 03 02 8a fa
+2026-11-03 16:33:30.313 DEBU [pymycobot.generate] _write: FE FE 02 12 FA 
+2026-11-03 16:33:30.320 DEBU [pymycobot.generate] _read frame: fe fe 03 12 01 fa
+2026-11-03 16:33:30.528 DEBU [pymycobot.generate] _write: FE FE 02 51 FA 
+2026-11-03 16:33:30.545 DEBU [pymycobot.generate] _read frame: fe fe 03 51 01 fa
+2026-11-03 16:33:30.749 DEBU [pymycobot.generate] _write: FE FE 02 27 FA 
+2026-11-03 16:33:30.944 DEBU [pymycobot.generate] _read frame: fe fe 03 27 00 fa
+2026-11-03 16:33:31.148 DEBU [pymycobot.generate] _write: FE FE 02 2B FA 
+2026-11-03 16:33:31.152 DEBU [pymycobot.generate] _read frame: fe fe 03 2b 00 fa
+2026-11-03 16:33:31.361 DEBU [pymycobot.generate] _write: FE FE 02 07 FA 
+2026-11-03 16:33:31.369 DEBU [pymycobot.generate] _read frame: fe fe 04 07 d0 03 fa
+2026-11-03 16:33:31.587 DEBU [pymycobot.generate] _write: FE FE 02 20 FA 
+2026-11-03 16:33:31.617 DEBU [pymycobot.generate] _read frame: fe fe 0e 20 fe 14 ff 5a e0 6b 03 42 00 11 ea 9d fa
+2026-11-03 16:33:31.823 DEBU [pymycobot.generate] _write: FE FE 02 23 FA 
+2026-11-03 16:33:32.013 DEBU [pymycobot.generate] _read frame: fe fe 0e 23 00 60 ff f8 0f ed fd d4 02 0c eb da fa
+2026-11-03 16:33:32.214 DEBU [pymycobot.generate] _write: FE FE 02 E4 FA 
+2026-11-03 16:33:33.228 DEBU [pymycobot.generate] Reply timeout for 0xe4
+2026-11-03 16:33:33.228 DEBU [pymycobot.generate] _write: FE FE 02 E4 FA 
+2026-11-03 16:33:33.301 DEBU [pymycobot.generate] _read frame: fe fe 08 e4 00 00 00 00 00 00 fa
+2026-11-03 16:33:33.508 DEBU [pymycobot.generate] _write: FE FE 03 4A 03 FA 
+2026-11-03 16:33:33.510 DEBU [pymycobot.generate] Skipped reply 0xe4; waiting for 0x4a
+2026-11-03 16:33:33.514 DEBU [pymycobot.generate] _read frame: fe fe 05 4a 03 f9 2a fa
+2026-11-03 16:33:33.514 DEBU [pymycobot.generate] _write: FE FE 03 4B 03 FA 
+2026-11-03 16:33:33.532 DEBU [pymycobot.generate] _read frame: fe fe 05 4b 03 02 8a fa

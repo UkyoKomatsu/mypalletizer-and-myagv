@@ -1,0 +1,23 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "mechArm: current state (NO movement)",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/mecharm_status.py",
+            "console": "internalConsole",
+            "internalConsoleOptions": "openOnSessionStart",
+            "justMyCode": true
+        },
+        {
+            "name": "mechArm: run test.py (MOVEMENT)",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/test.py",
+            "console": "internalConsole",
+            "internalConsoleOptions": "openOnSessionStart",
+            "justMyCode": true
+        }
+    ]
+}
