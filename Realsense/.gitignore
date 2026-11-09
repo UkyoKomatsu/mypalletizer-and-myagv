@@ -1,0 +1,8 @@
+.venv/
+__pycache__/
+*.pyc
+captures/
+captures_demo/
+analysis_*/
+distance_profiles.json
+distance_profiles.json.tmp
